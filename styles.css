@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Imagens/D_NQ_NP_900251MLB50171693992_062022-O.jpg);
+  width: 1400px;
+  background-color: #f5f7fa;
+  margin: auto;
+}
+header {
+  width: 1400px;
+  background-color: #333333;
+}
+.cabeca {
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+.cabeca nav {
+  padding: 15px;
+  position: fixed;
+  width: 1400px;
+  background-color: #333333;
+  z-index: 1;
+}
+.cabeca nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  gap: 25px;
+}
+.cabeca nav ul li {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+}
+.cabeca nav ul li:hover {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: green;
+}
+.cabeca nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.cabeca img {
+  width: 1400px;
+  height: 200px;
+}
+.cabeca h1 {
+  text-align: center;
+  text-shadow: 0.2em 0.2em 0.15em #121212;
+  padding: 10px;
+}
+.PrimeiraPagina {
+  width: 1400px;
+  background-color: #121212;
+  display: flex;
+  font-family: "Playfair Display", serif;
+}
+.PrimeiraPagina img {
+  width: 550px;
+  margin: 50px;
+}
+.texto1 {
+  align-items: center;
+  margin: auto 0;
+  color: white;
+}
+.texto1 p {
+  margin-right: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+.texto1 h2 {
+  text-align: center;
+  margin: 0 50px 20px 0;
+}
+.SegundaPagina {
+  width: 1400px;
+  background-color: #333333;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+.SegundaPagina h2 {
+  text-align: center;
+  padding: 25px;
+}
+.SegundaPagina nav {
+  border: 1px solid black;
+  margin: 0 0 50px 80px;
+  background-color: black;
+  border-radius: 10px;
+}
+.SegundaPagina nav ul {
+  margin: 35px;
+  line-height: 35px;
+}
+.SegundaPagina .espaco1 {
+  display: flex;
+  align-items: center;
+}
+.espaco2 {
+  position: relative;
+  align-items: center;
+  margin: -85px auto 0 auto;
+}
+.espaco2 p {
+  font-size: 25px;
+  position: absolute;
+  bottom: 84px;
+  right: 120px;
+  border: solid black;
+  border-radius: 50%;
+  padding: 65px 15px;
+  background-color: black;
+  opacity: 35%;
+}
+.SegundaPagina img {
+  height: 400px;
+}
+.TerceiraPagina {
+  width: 1400px;
+  background-color: #121212;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.TerceiraPagina h2 {
+  text-align: center;
+  padding: 34px;
+}
+.texto2 {
+  padding: 20px;
+  width: 600px;
+  margin: 0 0 60px 75px;
+  border: solid #333332;
+  background-color: #333333;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: justify;
+}
+.TerceiraPagina ul {
+  line-height: 35px;
+  margin: 10px 0 0 25px;
+}
+.TerceiraPagina ul li a {
+  text-decoration: none;
+  color: cornflowerblue;
+  text-shadow: 0 0 0.7em white;
+}
+.imagem {
+  display: flex;
+  margin-bottom: 1px;
+}
+.caixa {
+  display: flex;
+}
+.TerceiraPagina .img1 {
+  height: 260px;
+  width: auto;
+  margin-left: 110px;
+}
+.img2 {
+  height: 260px;
+  width: auto;
+}
+.QuartaPagina {
+  background-color: #333333;
+  width: 1400px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-bottom: 36px;
+  position: relative;
+}
+.QuartaPagina .lampada1 {
+  width: 537px;
+  position: absolute;
+  left: -85px;
+  bottom: -38px;
+}
+.QuartaPagina .lampada2 {
+  width: 537px;
+  position: absolute;
+  right: -85px;
+  bottom: -38px;
+}
+.QuartaPagina h2 {
+  padding: 34px;
+}
+.QuartaPagina .texto3 {
+  background-color: black;
+  border-radius: 10px;
+  padding: 30px;
+  width: 50%;
+  line-height: 35px;
+  margin: auto;
+}
+.QuartaPagina ul li {
+  list-style: none;
+}
+.QuartaPagina ul li a {
+  text-decoration: none;
+  color: cornflowerblue;
+  text-shadow: 0 0 0.7em white;
+}
+footer {
+  width: 1400px;
+  background-color: #121212;
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding: 40px 0;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  border-bottom: 1px solid white;
+  width: 380px;
+  padding-bottom: 5px;
+}
+footer ul li a img {
+  width: 40px;
+}
+footer .inst {
+  width: 52px;
+  margin-top: -5px;
+}

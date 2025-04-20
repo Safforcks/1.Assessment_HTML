@@ -1,0 +1,68 @@
+body {
+  background-image: url(D_NQ_NP_900251MLB50171693992_062022-O1.jpg);
+}
+.cartão {
+  width: 370px;
+  height: 810px;
+  background-color: black;
+  margin: 100px auto;
+}
+.imagem {
+  position: relativo;
+}
+.imagem img {
+  width: 350px;
+  border-radius: 5px 5px 0 0;
+  margin: 8px 8px;
+}
+.imagem span {
+  color: rgb(241, 147, 32);
+  position: absolute;
+  margin: 12px 12px;
+  justify-content: right;
+}
+.texto_1 {
+  color: white;
+  margin: 0 20px;
+}
+.texto_1 p {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  margin-top: -18px;
+}
+.icone h5 {
+  color: white;
+}
+.texto_2 {
+  margin: 0 20px;
+}
+.texto_2 p {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  margin-top: -18px;
+}
+.legenda p {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.945);
+}
+.footer {
+  color: rgb(241, 147, 32);
+  margin: 0 20px;
+  display: flex;
+}
+.footer span {
+  padding: 0 10px;
+  margin-top: 13px;
+}
+.caixa span {
+  position: absolute;
+}
+.caixa P {
+  border: 1px solid rgb(241, 147, 32);
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px 0 5px 35px;
+  width: 100px;
+  margin-right: 55px;
+  text-decoration: none;
+}
